@@ -4,236 +4,419 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 
 1: Create a file called "evaluate.txt".
     touch evalutate.txt
+
 2: Output hidden files.
+
     ls -a or ls -la //ls -la outputs long form of the hidden files
+
 3: Output who the active user is.
+
     whoami
+
 4: Output hidden files.
+
     ls -la
+
 5: Create a file "bay.txt" containing: "needle banish needle stock needle". Then output the sorted lines.
+
     echo "needle banish needle stock needle" > bay.txt
     sort bay.txt
+
 6: Use: echo "evaluate recommend experienced pen advice" > "advice.txt" to create or overwrite "advice.txt".
-    created
+
+    echo "evaluate recommend experienced pen advice" > advice.txt    
+
 7: Use: echo "cater terminal ethics cousin advantage" > "hill.txt" to create or overwrite "hill.txt".
-    created
+
+    echo "cater terminal ethics cousin advantage" > hill.txt
+
 8: Output what's in the directory.
+
     ls
 9: Create a file "pray.txt" containing: "sister medal sister experienced sister". Then output the unique lines.
+
     echo "sister medal sister experienced sister" > pray.txt
     uniq pray.txt
+
 10: Create a file "medal.txt" containing: "recommend advice nerve excuse medal". Then search recursively for "medal".
+
     echo "recommend advice nerve excuse medal" > medal.txt
     grep -r "medal" medal.txt
+
 11: Output the full path you are on.
+
     pwd
 12: Output what's in the directory.
+
     ls
 13: Delete the last folder you created.
+
     "NOT POSSIBLE"
 14: Create a file called "degree.txt" and immediately delete it.
+
     touch degree.txt
     rm degree.txt
 15: Create a file called "surprise.txt".
+
     touch suprise.txt
+
 16: Output the full path you are on.
+
     pwd
+
 17: Delete the last file you created.
+
     rm suprise.txt
+
 18: Move one level up (stay inside "cli_sandbox").
+
     NOT POSSIBLE
+
 19: Move two folders up (but never leave "cli_sandbox").
+
     NOT POSSIBLE
+
 20: Output hidden files.
+
     ls -a or ls -la
+
 21: Create a file called "needle.txt" and immediately delete it.
+
     touch needle.txt
     rm needle.txt
+
 22: Delete the last folder you created.
+
     NOT POSSIBLE
+
 23: Move one level up (stay inside "cli_sandbox").
+
     NOT POSSIBLE
+
 24: Use: echo "advice architecture rain surprise sister" > "discover.txt" to create or overwrite "discover.txt".
+
     echo "advice architecture rain surprise sister"
+
 25: Output the full path you are on.
+
     pwd
+
 26: Create a file called "honor.txt" containing these words (one per line): "relative rider relative discover relative". Then count the lines.
+
     echo "relative" > honor.txt
     echo "rider" >> honor.txt
     echo "relative" >> honor.txt
     echo "discover" >> honor.txt
     echo "relative" >> honor.txt
+
 27: Create a file called "honor.txt" and immediately delete it.
+
     touch honor.txt
     rm honor.txt
+
 28: If already inside "cli_sandbox", create a directory "shallow" and move into the directory.
+
     mkrdir shallow
     cd shallow/
+
 29: Create a file "appreciate.txt" containing: "shallow pray shallow nerve shallow". Then output the unique lines.
+
     echo "shallow pray shallow nerve shallow" > appreciate.txt
     uniq appreciate.txt
+
 30: Delete the last file you created.
+
     rm appreciate.txt
+
 31: Delete the last file you created.
+
     NOT POSSIBLE
+
 32: Move one level up (stay inside "cli_sandbox").
+
     cd ..
+
 33: If already inside "cli_sandbox", create a directory "identity" and move into the directory.
+
     mkrdir identity
     cd identity/
+
 34: Create a file "difficulty.txt" containing: "plane rider difficulty needle shallow". Then search recursively for "difficulty".
+
     echo "plane rider difficulty needle shallow"
     grep -r "difficulty" difficulty.txt
+
 35: Create a file called "difficulty.txt" and immediately delete it.
+
     touch difficulty.txt
     rm difficulty.txt
+
 36: Output the full path you are on.
+
     pwd
+
 37: Create two directories "cousin" and "sister" and move into "sister".
+
     mkrdir cousin sister
     cd sister
+
 38: Output hidden files.
+
     ls -a or ls -la
+
 39: Output the full path you are on.
+
     pwd
+
 40: Output the full path you are on.
+
     pwd
+
 41: Output the content of any file in the directory.
+
     NOT POSSIBLE
+
 42: Delete the last file you created.
+
     NOT POSSIBLE
+
 43: Create a directory "cousin" and then delete it.
+
     mkdir cousin
     rm -r cousin/
+
 44: Create a file called "on.txt" and immediately delete it.
+
     touch on.txt
     rm on.txt
+
 45: Move two folders up (but never leave "cli_sandbox").
+
     cd ../..
+
 46: Create a file called "support.txt".
+
     touch support.txt
+
 47: Create a file "recommend.txt" containing: "hill interference speculate recommend on". Then search recursively for "recommend".
+
     echo "hill interference speculate recommend on" > recommend.txt
     grep -r "recommend" recommend.txt
+
 48: Move one level up (stay inside "cli_sandbox").
+
     NOT POSSIBLE
+
 49: Create a folder named "cli_sandbox".
+
     mkdir cli_sandbox
+
 50: Create a file "relative.txt" containing: "cater relative hill needle proportion". Then search recursively for "relative".
+
     echo "cater relative hill needle proportion" > relative.txt
     grep -r "relative" relative.txt
+
 51: Output the content of any file in the directory.
+
     cat medal.txt
+
 52: Output the sizes of the files in the directory.
+
     du
+
 53: Change directory to "cli_sandbox".
+
     cd cli_sandbox
+
 54: Open a file in the terminal and see the content.
+
     NOT POSSIBLE
+
 55: Create a folder named "cli_sandbox".
+
     mkdir cli_sandbox
+
 56: Move two folders up (but never leave "cli_sandbox").
+
     NOT POSSIBLE
+
 57: Create a file "speculate.txt" containing: "hill salvation hill advice hill". Then output the sorted lines.
+
     echo "hill salvation hill advice hill" > speculate.txt
     sort speculate.txt
+
 58: Create a file called "pioneer.txt" containing these words (one per line): "difficulty appreciate difficulty responsibility difficulty". Then count the lines.
+
     echo "difficulty" > pioneer.txt
     echo "appreciate" >> pioneer.txt
     echo "difficulty" >> pioneer.txt
     echo "responsibility" >> pioneer.txt
     echo "difficulty" >> pioneer.txt
     wc pioneer.txt
+
 59: If already inside "cli_sandbox", create a directory "pray" and move into the directory.
+
     mkdir pray
     cd pray/
+
 60: If already inside "cli_sandbox", create a directory "difficulty" and move into the directory.
+
     NOT POSSIBLE
+
 61: Write something in a file called "panel.txt".
+
     echo "words are something" > panel.txt
+
 62: Output what's in the directory.
+
     ls
+
 63: Delete the last folder you created.
+
     cd ..
     rm -r pray/
+
 64: Change directory to "cli_sandbox".
+
     cd cli_sandbox/
+
 65: Move two folders up (but never leave "cli_sandbox").
+
     cd ../..
+
 66: Delete the last folder you created.
+
     mkdir cli_sandbox/
+
 67: Output the full path you are on.
+
     pwd
+
 68: Create a file "rider.txt" containing: "on pray nerve rider hill". Then search recursively for "rider".
+
     echo "on pray nerve rider hill" > rider.txt
     grep -r rider.txt
+
 69: Create a file "proportion.txt" containing: "beat sister proportion terminal regret". Then search recursively for "proportion".
+
     echo "beat sister proportion terminal regret" > proportion.txt
     grep -r "proportion" proportion.txt
+
 70: Create a directory "advice" and then delete it.
+
     mkdir advice
     rm -r advice/
+
 71: Create a file "salvation.txt" containing: "difficulty sister difficulty rider difficulty". Then output the unique lines.
+
     echo "difficulty sister difficulty rider difficulty" > salvation.txt
     uniq salvation.txt
+
 72: Output the full path you are on.
+
     pwd
+
 73: Create a file called "rain.txt" containing these words (one per line): "banish honor banish surprise banish". Then count the lines.
+
     echo "banish" > rain.txt
     echo "honor" >> rain.txt
     echo "banish" >> rain.txt
     echo "surprise" >> rain.txt
     echo "banish" >> rain.txt
     wc rain.txt
+
 74: Create a file called "plane.txt".
+
     touch plane.txt
+
 75: Create a file "pioneer.txt" containing: "architecture pioneer on discover pen". Then search recursively for "pioneer".
+
     echo "architecture pioneer on discover pen" > pioneer.txt
     grep -r "pioneer" pioneer.txt
+
 76: Create a folder named "cli_sandbox".
+
     mkdir cli_sandbox
+
 77: Create a file "cater.txt" containing: "depression evaluate depression discover depression". Then output the sorted lines.
+
     echo "depression evaluate depression discover depression" > cater.txt
     sort cater.txt
+
 78: Move two folders up (but never leave "cli_sandbox").
+
     NOT POSSIBLE
+
 79: Delete the last file you created.
+
     rm cater.txt
 80: Output who the active user is.
+
     whoami
+
 81: Move two folders up (but never leave "cli_sandbox").
+
     NOT POSSIBLE
+
 82: Output who the active user is.
+
     whoami
+
 83: Open a file in the terminal and see the content.
+
     less pray.txt
+
 84: Create a folder named "cli_sandbox".
+
     NOT POSSIBLE
+
 85: If there are any directories in the current folder, then move inside any one of them.
+
     cd identity/
+
 86: If there are any directories in the current folder, then move inside any one of them.
+
     cd sister/
+
 87: Create two directories "correspondence" and "banish" and move into "banish".
+
     mk dir correspondence banish
+
 88: Delete the last file you created.
+
     cd ../..
     rm plane.txt
+
 89: Output what's in the directory.
+
     ls
+
 90: Delete the last file you created.
+
     rm rain.txt
+
 91: Open a file in the terminal and see the content.
+
     less relative.txt
+
 92: Delete the last file you created.
+
     rm pioneer.txt
+
 93: If already inside "cli_sandbox", create a directory "support" and move into the directory.
+
     mkdir support
     cd support/
+
 94: Delete the last folder you created.
+
     cd ..
     rm -r support/
+
 95: Open a file in the terminal and see the content.
+
     less evaluate.txt
+
 96: Create a file called "degree.txt" containing these words (one per line): "architecture surprise architecture panel architecture". Then count the lines.
     
 97: Output what's in the directory.
